@@ -1,0 +1,64 @@
+.register-parent {
+  height:100% ;
+  padding: 0 2%;
+  background: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.register {
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35);
+
+}
+
+.register-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-title img {
+  width: 80px;
+  height: 80px;
+}
+
+.register .form-group label{
+  font-size: 14px;
+}
+
+.register .form-group input {
+  font-size: 14px;
+
+}
+
+.contato-breve {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.register button {
+  margin-top: 20px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: white;
+  width: 100%;
+  font-size: 20px;
+}
+
+.register button:hover{
+  border: none;
+  color: white;
+  transform:scale(1.04);
+  transition:.2s;
+  margin-top: 10px;
+}
